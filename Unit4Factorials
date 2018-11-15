@@ -1,0 +1,14 @@
+public class Unit4Factorials {
+	public static void main(String[] args) {
+		
+		long num;
+		long fac = 1;
+		
+		System.out.println("Number\tFactorial");
+		
+		for (num = 1;num <= 20; num++) {
+			fac *= num;
+			System.out.printf("\n%d\t%d", num, fac);
+		}
+	}
+}
